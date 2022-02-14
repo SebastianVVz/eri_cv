@@ -1,0 +1,22 @@
+#seccion-1{
+    justify-content: space-around;
+    text-align: center;
+}
+#flecha{
+    height: 100px;
+    width: 100px;
+}
+#text-lib-1{
+    display: block;
+}
+#text-lib-2{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    #text-lib-1{
+        display: none;
+    }
+    #text-lib-2{
+        display: block;
+    }
+}

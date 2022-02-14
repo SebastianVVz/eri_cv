@@ -1,0 +1,10 @@
+#seccion-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+    #seccion-6{
+        flex-direction: column-reverse;
+    }
+}

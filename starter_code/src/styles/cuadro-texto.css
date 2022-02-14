@@ -1,0 +1,45 @@
+.cuadro-texto{
+    display: flex;
+    justify-content: center;
+}
+#eri-1{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 75px;
+}
+
+#eri-2{
+    display: none;
+    margin: auto;
+    border-radius: 50%;
+    width: 75px;
+}
+
+#marco{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 75px;
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontBase);
+    font-size: 25px;
+    color: var(--dark-blue);
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    border-style:outset;
+    border-radius: 30px;
+    border-width: 1px;
+    text-align: center;
+    width: 1000px;
+    justify-content: center ;
+}
+
+@media screen and (max-width: 600px) {
+    #eri-2{
+        display: block;
+    }
+}

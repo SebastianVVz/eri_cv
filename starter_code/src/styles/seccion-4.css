@@ -1,0 +1,13 @@
+#seccion-4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#ipad{
+    width: 500px;
+}
+@media screen and (max-width: 600px) {
+    #seccion-4{
+        flex-direction: column-reverse;
+    }
+}
